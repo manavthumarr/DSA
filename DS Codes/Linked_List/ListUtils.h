@@ -2,7 +2,6 @@
 #define LISTUTILS_H
 
 #include "Singly_linked_list/Node.h"
-#include "Doubly_linked_list/DoublyNode.h"
 #include <iostream>
 using namespace std;
 
