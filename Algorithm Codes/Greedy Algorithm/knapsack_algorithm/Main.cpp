@@ -11,8 +11,8 @@ int main(){
     cout<<"no. items you have to store:";
     cin>>n;
 
-    Item* arr = new Item[n]; // create an array of objects dynamically
-
+    Item arr[n]; 
+    
     for(int i=0 ; i<n ; i++){
         cout<<"enter the value for item-"<<i+1<<endl;
         arr[i].input();
@@ -20,7 +20,7 @@ int main(){
   
     cout<<"max profit:-"<<knapsack(arr,n,capacity);
 
-    delete[] arr;
+    
     
     return 0;
 }
