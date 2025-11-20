@@ -1,6 +1,6 @@
 #include "knapsack.h"
 
-double knapsack(Item arr[],int n,int capacity) // n is no. of items
+double knapsack(Item* arr,int n,int capacity) // n is no. of items
 {
     double avg[n],p=0;
     int i;
